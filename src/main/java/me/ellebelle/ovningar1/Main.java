@@ -5,23 +5,14 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        halsning();
-
-    }
-
-
-
-    public static void halsning() {
-        // Grundläggande Syntax, Datatyper, Villkor och metoder
-
-        // 1
-        IO.println("Vad heter du?");
-        String namnIO = IO.readln();
-        IO.println("Hej " + namnIO + " välkommen hit idag!");
-
+        Ovning1_1.halsning();
+        Ovning1_2.rektangelYta();
+        int age = Integer.parseInt(IO.readln("Hur gammal är du?"));
+        Ovning1_3.leagalyDriver(age);
+        System.out.println("Hur gammal är du?");
         Scanner sc = new Scanner(System.in);
-        System.out.println("Vad heter du?");
-        String namnSout = sc.nextLine();
-        System.out.println("Hej " + namnSout + " välkommen hit idag!");
+        int age2 = sc.nextInt();
+        Ovning1_3.leagalyDriver(age2);
+
     }
 }
