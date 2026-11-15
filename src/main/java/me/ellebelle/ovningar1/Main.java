@@ -19,7 +19,9 @@ public class Main {
 //        Ovning1_4.averageValue();
 //
 //        Ovning1_5.averageValue3();
+//
+//        Ovning1_6.outWriteNumber();
 
-        Ovning1_6.outWriteNumber();
+        Ovning1_8.switchNum();
     }
 }
