@@ -17,5 +17,7 @@ public class Main {
         Ovning1_3.leagalyDriver(age2);
 
         Ovning1_4.averageValue();
+
+        Ovning1_5.averageValue3();
     }
 }
