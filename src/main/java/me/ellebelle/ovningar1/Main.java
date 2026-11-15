@@ -27,5 +27,9 @@ public class Main {
         int num1 = 4, num2 = 8;
         int result = Ovning1_9.sum(num1, num2);
         IO.println(result);
+
+        double celcius = 25.5;
+        double result2 = Ovning_10.celciusToFarenheit(celcius);
+        IO.println(result2);
     }
 }
