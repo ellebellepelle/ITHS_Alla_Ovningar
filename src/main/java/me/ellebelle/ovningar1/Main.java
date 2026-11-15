@@ -21,7 +21,11 @@ public class Main {
 //        Ovning1_5.averageValue3();
 //
 //        Ovning1_6.outWriteNumber();
+//
+//        Ovning1_8.switchNum();
 
-        Ovning1_8.switchNum();
+        int num1 = 4, num2 = 8;
+        int result = Ovning1_9.sum(num1, num2);
+        IO.println(result);
     }
 }
