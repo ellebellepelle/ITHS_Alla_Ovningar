@@ -21,7 +21,19 @@ public class Main {
 //        Ovning1_5.averageValue3();
 //
 //        Ovning1_6.outWriteNumber();
+//
+//        Ovning1_8.switchNum();
 
-        Ovning1_8.switchNum();
+        int num1 = 4, num2 = 8;
+        int result = Ovning1_9.sum(num1, num2);
+        IO.println(result);
+
+        double celcius = 25.5;
+        double result2 = Ovning_10.celciusToFarenheit(celcius);
+        IO.println(result2);
+
+        double fahrenheit = 91.2;
+        double result3 = Ovning1_11.fahrenheitToCelcius(fahrenheit);
+        IO.println(result3);
     }
 }
