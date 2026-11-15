@@ -31,5 +31,9 @@ public class Main {
         double celcius = 25.5;
         double result2 = Ovning_10.celciusToFarenheit(celcius);
         IO.println(result2);
+
+        double fahrenheit = 91.2;
+        double result3 = Ovning1_11.fahrenheitToCelcius(fahrenheit);
+        IO.println(result3);
     }
 }
